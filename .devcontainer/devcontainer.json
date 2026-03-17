@@ -1,0 +1,9 @@
+{
+    "image":"mcr.microsoft.com/devcontainers/universal:2",
+    "postCreateCommand": "yarn install",
+    "extensions": [
+        "codelounge.tako",
+        "hasel-alakmeh.telemetry-activity-tracker"
+    ],
+    "hostRequirements": { "cpus": 4, "memory": "8gb", "storage": "32gb" }
+}
